@@ -1,0 +1,58 @@
+ * {
+            margin: 0vw;
+            padding: 0vw;
+            box-sizing: border-box;
+        }
+
+        div.container {
+            max-width: 50vw;
+            margin: 2vw auto;
+            padding: 0px 2vw;
+            border: .2vw solid white;
+            color: white;
+        }
+
+       input {
+            width: 100%;
+            height: 2.5vw;
+            border-radius: .5vw;
+            text-align: center;
+            font-size: 2vw;
+        }
+
+        input.middle,
+        select {
+            width: 40%;
+            height: 2.5vw;
+            border-radius: .5vw;
+            text-align: center;
+            font-size: 2vw;
+        }
+
+        h1 {
+            margin-left: 1w;
+        }
+
+        h1.main-heading {
+            font-size: 4vw;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            text-align: center;
+        }
+
+        body {
+            background-color: black
+        }
+
+        label {
+            margin-left: 1vw;
+        }
+
+       option {
+            font-size: 1.5vw;
+        }
+        input.radi, label.radi {
+         margin: 0%;
+        padding: 0%;}
+    h2{color: white;
+    text-align: center;}

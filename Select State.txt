@@ -1,0 +1,31 @@
+<select style="margin-left: 3vw;" id="states" name="states">
+                <option value="select state" selected>select state</option>
+                <option value="arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="arunachal Pradesh">Andhra Pradesh</option>
+                <option value="arunachal Pradesh">Assam</option>
+                <option value="arunachal Pradesh">Bihar</option>
+                <option value="arunachal Pradesh">Chattisgarh</option>
+                <option value="arunachal Pradesh">Goa</option>
+                <option value="arunachal Pradesh">Gujarat</option>
+                <option value="arunachal Pradesh">Haryana</option>
+                <option value="arunachal Pradesh">Himachal Pradesh</option>
+                <option value="arunachal Pradesh">Jharkhand</option>
+                <option value="arunachal Pradesh">Karnataka</option>
+                <option value="arunachal Pradesh">Kerala</option>
+                <option value="arunachal Pradesh">Madhya Pradesh</option>
+                <option value="arunachal Pradesh">Maharastra</option>
+                <option value="arunachal Pradesh">Manipur</option>
+                <option value="arunachal Pradesh">Meghalaya</option>
+                <option value="arunachal Pradesh">Mizoram</option>
+                <option value="arunachal Pradesh">Nagaland</option>
+                <option value="arunachal Pradesh">Odisha</option>
+                <option value="arunachal Pradesh">Punjab</option>
+                <option value="arunachal Pradesh">Rajasthan</option>
+                <option value="arunachal Pradesh">Sikkim</option>
+                <option value="arunachal Pradesh">Tamil Nadu</option>
+                <option value="arunachal Pradesh">Telangana</option>
+                <option value="arunachal Pradesh">Tripura</option>
+                <option value="arunachal Pradesh">Uttarakhand</option>
+                <option value="arunachal Pradesh">Uttar Pradesh</option>
+                <option value="arunachal Pradesh">West Bengal</option>
+            </select><br>

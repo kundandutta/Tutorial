@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="Survey.css">
+</head>
+
+<body>
+    <h2 id="demo"></h2>
+    <script>
+        const d= new Date()
+        document.getElementById("demo").innerHTML= d.toDateString();
+    </script>
+    <div class="container">
+        <h1 class="main-heading">Survey Form :</h1>
+        <hr><br><br>
+
+        <form action="action_page.php" autocomplete="on" autocapitalize="">
+            <h1>Customer Name</h1><br>
+            <input class="middle" type="text" id="cname" name="cname" value="" placeholder="Your First Name..">
+            <input class="middle" style="margin-left: 3vw;" type="text" id="cname" name="cname" value=""
+                placeholder="Your Last Name..">
+            <br><br>
+            <h1>Address</h1><br>
+            <input type="text" id="cname" name="cname" value="" placeholder="Your Address.."><br>
+            <label for="cname">Address 1</label><br><br>
+            <input type="text" id="cname" name="cname" value="" placeholder="Your Address.."><br>
+            <label for="cname">Address 2</label><br><br>
+            <input class="middle" type="text" id="cname" name="cname" value="" placeholder="City..">
+            <select style="margin-left: 3vw;" id="states" name="states">
+                <option value="select state" selected>select state</option>
+                <option value="arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="arunachal Pradesh">Andhra Pradesh</option>
+                <option value="arunachal Pradesh">Assam</option>
+                <option value="arunachal Pradesh">Bihar</option>
+                <option value="arunachal Pradesh">Chattisgarh</option>
+                <option value="arunachal Pradesh">Goa</option>
+                <option value="arunachal Pradesh">Gujarat</option>
+                <option value="arunachal Pradesh">Haryana</option>
+                <option value="arunachal Pradesh">Himachal Pradesh</option>
+                <option value="arunachal Pradesh">Jharkhand</option>
+                <option value="arunachal Pradesh">Karnataka</option>
+                <option value="arunachal Pradesh">Kerala</option>
+                <option value="arunachal Pradesh">Madhya Pradesh</option>
+                <option value="arunachal Pradesh">Maharastra</option>
+                <option value="arunachal Pradesh">Manipur</option>
+                <option value="arunachal Pradesh">Meghalaya</option>
+                <option value="arunachal Pradesh">Mizoram</option>
+                <option value="arunachal Pradesh">Nagaland</option>
+                <option value="arunachal Pradesh">Odisha</option>
+                <option value="arunachal Pradesh">Punjab</option>
+                <option value="arunachal Pradesh">Rajasthan</option>
+                <option value="arunachal Pradesh">Sikkim</option>
+                <option value="arunachal Pradesh">Tamil Nadu</option>
+                <option value="arunachal Pradesh">Telangana</option>
+                <option value="arunachal Pradesh">Tripura</option>
+                <option value="arunachal Pradesh">Uttarakhand</option>
+                <option value="arunachal Pradesh">Uttar Pradesh</option>
+                <option value="arunachal Pradesh">West Bengal</option>
+            </select><br>
+            <label style="margin-left: 10vw;" for="cname">city</label><label style="margin-left: 20vw;"
+                for="cname">State</label><br><br>
+            <input type="text" id="cname" name="cname" value="" placeholder="PIN Code.."><br>
+            <label for="cname">PIN Code</label><br><br>
+            <select id="states" name="states">
+                <option value="select state" selected>select Country</option>
+                <option value="arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="arunachal Pradesh">Andhra Pradesh</option>
+                <option value="arunachal Pradesh">Assam</option>
+                <option value="arunachal Pradesh">Bihar</option>
+                <option value="arunachal Pradesh">Chattisgarh</option>
+                <option value="arunachal Pradesh">Goa</option>
+                <option value="arunachal Pradesh">Gujarat</option>
+                <option value="arunachal Pradesh">Haryana</option>
+                <option value="arunachal Pradesh">Himachal Pradesh</option>
+                <option value="arunachal Pradesh">Jharkhand</option>
+                <option value="arunachal Pradesh">Karnataka</option>
+                <option value="arunachal Pradesh">Kerala</option>
+                <option value="arunachal Pradesh">Madhya Pradesh</option>
+                <option value="arunachal Pradesh">Maharastra</option>
+                <option value="arunachal Pradesh">Manipur</option>
+                <option value="arunachal Pradesh">Meghalaya</option>
+                <option value="arunachal Pradesh">Mizoram</option>
+                <option value="arunachal Pradesh">Nagaland</option>
+                <option value="arunachal Pradesh">Odisha</option>
+                <option value="arunachal Pradesh">Punjab</option>
+                <option value="arunachal Pradesh">Rajasthan</option>
+                <option value="arunachal Pradesh">Sikkim</option>
+                <option value="arunachal Pradesh">Tamil Nadu</option>
+                <option value="arunachal Pradesh">Telangana</option>
+                <option value="arunachal Pradesh">Tripura</option>
+                <option value="arunachal Pradesh">Uttarakhand</option>
+                <option value="arunachal Pradesh">Uttar Pradesh</option>
+                <option value="arunachal Pradesh">West Bengal</option>
+            </select><br>
+            <label for="Country">Country</label><br> <br>
+            <h1>Contact</h1><br>
+            <input class="middle" type="text" id="contact" name="contact" value="" placeholder="E-mail Id"><input
+                style="margin-left: 3vw;" class="middle" type="text" id="contact" name="contact" value=""
+                placeholder="Phone Number"><br>
+            <label style="margin-left: 8vw;" for="contact">E-mail Id</label><label style="margin-left: 15vw;"
+                for="contact">Phone Number</label><br>
+                <fieldset>
+                    <legend>Personal Details:</legend>
+                <h1>Personal Details</h1><br><br>
+                <label class="radi" for="Male">Male</label>
+                <input class="radi" type="radio" id="Male" name="Sex" value="Male">
+                <label class="radi" for="Male">Female</label>
+                <input class="radi" type="radio" id="Male" name="Sex" value="Female">
+                <label class="radi" for="Male">Others</label>
+                <input class="radi" type="radio" id="Male" name="Sex" value="Others">
+                </fieldset>
+                <br><br>
+
+                <input type="Submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

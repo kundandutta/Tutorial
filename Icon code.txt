@@ -1,0 +1,27 @@
+Website for Icon:https://fontawesome.com/search?q=popular&o=r
+
+<i class="fa-brands fa-square-facebook"></i>     :facebook
+<i class="fa-brands fa-youtube"></i>	     :youtube
+<i class="fa-brands fa-instagram"></i>	     :Instagram
+<i class="fa-brands fa-twitter"></i>	     :Twitter
+<i class="fa-brands fa-pinterest"></i>	     :Pinterest
+<i class="fa-brands fa-snapchat"></i>	     :Snapchat
+<i class="fa-solid fa-magnifying-glass"></i>	     :magnifying glass
+<i class="fa-solid fa-heart"></i>		     :Favourite/heart
+<i class="fa-regular fa-heart"></i>	     :Favourite/heart
+<i class="fa-solid fa-thumbs-up"></i>	     :Like/Thums-up
+<i class="fa-light fa-user"></i>		     :user
+<i class="fa-solid fa-user"></i>		     :user
+<i class="fa-duotone fa-users"></i>	     :user-group
+<i class="fa-solid fa-cart-shopping"></i>	     :shopping cart
+<i class="fa-regular fa-cart-shopping"></i>	     :shopping cart
+<i class="fa-regular fa-envelope"></i>	     :Email
+<i class="fa-light fa-envelope"></i>	     :message
+<i class="fa-light fa-phone"></i>	                      :call
+<i class="fa-solid fa-phone"></i>	                      :call
+<i class="fa-solid fa-headset"></i>                      :Customer support
+<i class="fa-solid fa-image"></i>	                      :Image
+<i class="fa-regular fa-image"></i>                     :Image
+<i class="fa-regular fa-desktop"></i>                  :Monitor
+<i class="fa-light fa-desktop"></i>                      :Monitor
+<i class="fa-light fa-mobile"></i>	  	      :Mobile
